@@ -2,7 +2,7 @@
 
 use Phinx\Migration\AbstractMigration;
 
-class CreatePaymentTypes extends AbstractMigration
+class CreatePaymentMethods extends AbstractMigration
 {
 
     /**
@@ -10,10 +10,10 @@ class CreatePaymentTypes extends AbstractMigration
      */
     public function up()
     {
-        $this->table('payment_types')
-            ->addColumn('name','string')
-            ->addColumn('description', 'text')
-            ->addColumn('amount_months', 'integer')
+        $this->table('payment_methods')
+            ->addColumn('name', 'string')
+            ->addColumn('icon', 'string')
+            ->addColumn('icon_path', 'string')
             ->addColumn('created', 'datetime')
             ->addColumn('updated', 'datetime')
             ->save();
@@ -24,6 +24,6 @@ class CreatePaymentTypes extends AbstractMigration
      */
     public function down()
     {
-        $this->dropTable('payment_types');
+        $this->dropTable('payment_methods');
     }
 }

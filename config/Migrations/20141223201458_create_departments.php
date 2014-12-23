@@ -2,7 +2,7 @@
 
 use Phinx\Migration\AbstractMigration;
 
-class CreateDepartment extends AbstractMigration
+class CreateDepartments extends AbstractMigration
 {
 
     /**
@@ -14,6 +14,8 @@ class CreateDepartment extends AbstractMigration
             ->addColumn('name', 'string')
             ->addColumn('description', 'text')
             ->addColumn('manager_id', 'integer')
+            ->addColumn('created', 'datetime')
+            ->addColumn('updated', 'datetime')
             ->save();
 
         $this->table('departments')

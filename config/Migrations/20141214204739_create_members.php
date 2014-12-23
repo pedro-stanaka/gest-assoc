@@ -2,7 +2,7 @@
 
 use Phinx\Migration\AbstractMigration;
 
-class CreateMember extends AbstractMigration
+class CreateMembers extends AbstractMigration
 {
 
     /**
