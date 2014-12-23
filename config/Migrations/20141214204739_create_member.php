@@ -33,6 +33,9 @@ class CreateMember extends AbstractMigration
      */
     public function down()
     {
-
+        $this->table('members')
+            ->dropForeignKey('person_id')
+            ->save();
+        $this->dropTable('members');
     }
 }
