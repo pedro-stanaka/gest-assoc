@@ -2,7 +2,7 @@
 
 use Phinx\Migration\AbstractMigration;
 
-class CreateDepartment extends AbstractMigration
+class CreateDepartments extends AbstractMigration
 {
 
     /**
