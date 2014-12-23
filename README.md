@@ -1,28 +1,35 @@
-# OpenQuota - Association Management with ease
+# GestAssoc - Gestão de clubes e associações com facilidade
 
-This web application manages an association and has the following features:
+Esta aplicação Web gerencia uma associação e tem as seguintes funcionaah sei
+ * Gerenciamento de:
+    * Modalidades.
+    * Sócios.
+    * Departamentos
+    * Eventos (com newsletter por email
+    * Sócios por Modalidades.
+    * Tipos de Pagamentos.
+    * Opções de Pagamentos.
+    * Quotas A Pagar e/ou em Falta.
+    * Recibos.
+    * Emails. (enviados através da aplicação)
+    * Empregados/voluntários
+    * Auto gerenciamento do sistema (permissões, temas)
 
- * Management of associates
- * Management of departments 
- * Management of events (with newsletter via e-mail)
- * Management of payments
- * Management of employees/volunteers
- * System self-management (level of access, permissions, theme settings)
+
+## Requisitos
+
+Servidor com:
+ * Apache 2+ (com o módulo mod_rewrite habilitado)
+ * MySql 5+
+ * PHP 5.4+
 
 
-## Requirements
+## Instalação
 
- * Apache 2+ (with mod_rewrite enabled)
- * Mysql
- * PHP 5.5+
+A forma mais fácil de instalar a aplicação é baixando a última versão e extrair dentro de alguma pasta dentro da raiz do servidor apache 
+ e então acessar a página de instalação em: http://localhost/caminho/da/pasta/install.
 
-
-## Installation
-
-The easiest way of installing it is by downloading the latest release and unzip under some directory/sub-directory of your server root and 
-then accessing http://localhost/path/to/dir/install.
-
-Then follow the steps shown in screen.
+E seguir os passos da tela.
 
 
 
