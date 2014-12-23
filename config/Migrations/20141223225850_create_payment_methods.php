@@ -2,7 +2,7 @@
 
 use Phinx\Migration\AbstractMigration;
 
-class CreatePaymentMethod extends AbstractMigration
+class CreatePaymentMethods extends AbstractMigration
 {
 
     /**
