@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8bf6f477f4f07919557743f37001bf48",
+    "hash": "17b3049c73a48e99521f447716e7539e",
     "packages": [
         {
             "name": "aura/installer-default",
@@ -131,12 +131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "16c36b11436951b4fa4abf958f1fdce49c60811b"
+                "reference": "4b7de4dd9d9befcca1737dec5223968163bc20bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/16c36b11436951b4fa4abf958f1fdce49c60811b",
-                "reference": "16c36b11436951b4fa4abf958f1fdce49c60811b",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/4b7de4dd9d9befcca1737dec5223968163bc20bc",
+                "reference": "4b7de4dd9d9befcca1737dec5223968163bc20bc",
                 "shasum": ""
             },
             "require": {
@@ -188,7 +188,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2014-12-22 15:04:05"
+            "time": "2014-12-24 14:40:32"
         },
         {
             "name": "cakephp/debug_kit",
@@ -196,12 +196,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/debug_kit.git",
-                "reference": "f0be87e95ca14cdb1994bdd995f5c94d6cec25ba"
+                "reference": "259222be49082d9ae44c7aa95458ec015960e4b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/f0be87e95ca14cdb1994bdd995f5c94d6cec25ba",
-                "reference": "f0be87e95ca14cdb1994bdd995f5c94d6cec25ba",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/259222be49082d9ae44c7aa95458ec015960e4b4",
+                "reference": "259222be49082d9ae44c7aa95458ec015960e4b4",
                 "shasum": ""
             },
             "require": {
@@ -246,7 +246,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2014-12-22 02:36:59"
+            "time": "2014-12-23 18:57:53"
         },
         {
             "name": "cakephp/migrations",
@@ -829,6 +829,52 @@
     ],
     "packages-dev": [
         {
+            "name": "cakephp/bake",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/bake.git",
+                "reference": "cfcadf838f9a4d9c6934f697b0e224ebd5fb8957"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/cfcadf838f9a4d9c6934f697b0e224ebd5fb8957",
+                "reference": "cfcadf838f9a4d9c6934f697b0e224ebd5fb8957",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "3.0.x-dev",
+                "cakephp/plugin-installer": "*",
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Bake\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "CakePHP Community",
+                    "homepage": "https://github.com/cakephp/bake/graphs/contributors"
+                }
+            ],
+            "description": "Bake plugin for CakePHP 3.0",
+            "homepage": "https://github.com/cakephp/bake",
+            "keywords": [
+                "bake",
+                "cakephp"
+            ],
+            "time": "2014-12-23 12:24:49"
+        },
+        {
             "name": "cakephp/cakephp-codesniffer",
             "version": "dev-master",
             "source": {
@@ -981,7 +1027,8 @@
         "cakephp/cakephp": 20,
         "cakephp/debug_kit": 20,
         "cakephp/migrations": 20,
-        "cakephp/cakephp-codesniffer": 20
+        "cakephp/cakephp-codesniffer": 20,
+        "cakephp/bake": 20
     },
     "prefer-stable": true,
     "platform": {
