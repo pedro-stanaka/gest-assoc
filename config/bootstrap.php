@@ -181,3 +181,6 @@ Plugin::load([
 DispatcherFactory::add('Asset');
 DispatcherFactory::add('Routing');
 DispatcherFactory::add('ControllerFactory');
+
+
+Configure::load('assoc_forms.php');
