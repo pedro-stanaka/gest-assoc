@@ -29,6 +29,9 @@ class AppController extends Controller
 
 
     var $layout = 'bootstrap';
+    public $helpers = [
+        'Form'
+    ];
     /**
      * Initialization hook method.
      *

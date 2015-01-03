@@ -30,7 +30,7 @@
                  Javascript: html/assets/demo/demo.js
                 -->
             <div>
-                <div class="text-bg"><span class="text-slim">Bem vindo,</span> <span class="text-semibold">Ale</span></div>
+                <div class="text-bg"><span class="text-slim"><?= __('Welcome, ') ?></span><span class="text-semibold">User</span></div>
 
                 <?php echo $this->Html->image('no_avatar.jpg'); ?>
                 <div class="btn-group">
@@ -44,34 +44,30 @@
         </div>
         <ul class="navigation">
             <li>
-                <a href="/"><i class="menu-icon fa fa-dashboard"></i><span class="mm-text">Dashboard</span></a>
-            </li>
-            <li>
-                <?= $this->Html->link('<i class="menu-icon fa fa-map-marker"></i><span class="mm-text">Situação dos veículos</span>', ['action'=>'index', 'controller'=>'Trackings'],
-                ['escape'=>false]); ?>
+                <a href="/"><i class="menu-icon fa fa-home"></i><span class="mm-text">Home</span></a>
             </li>
             <li class="mm-dropdown">
-                <?= $this->Html->link("<i class='menu-icon fa fa-location-arrow'></i><span class='mm-text'>Dispositivos</span>", '#', ['escape'=>false]); ?>
+                <?= $this->Html->link("<i class='menu-icon fa fa-users'></i><span class='mm-text'>". __('Members') ."</span>", '#', ['escape'=>false]); ?>
                 <ul>
                     <li>
-                        <?= $this->Html->link("<i class='menu-icon fa fa-location-arrow'></i><span class='mm-text'>Cadastro</span>",
-                            ['controller'=>'devices', 'action'=>'add'], ['escape'=>false, 'tabindex'=>'-1']); ?>
+                        <?= $this->Html->link("<i class='menu-icon fa fa-plus-square-o'></i><span class='mm-text'>". __('Register') ."</span>",
+                            ['controller'=>'Members', 'action'=>'add'], ['escape'=>false, 'tabindex'=>'-1']); ?>
                     </li>
                     <li>
-                        <?= $this->Html->link("<i class='menu-icon fa fa-location-arrow'></i><span class='mm-text'>Listagem</span>",
-                            ['controller'=>'devices', 'action'=>'index'], ['escape'=>false, 'tabindex'=>'-1']); ?>
+                        <?= $this->Html->link("<i class='menu-icon fa fa-list'></i><span class='mm-text'>". __('List') ."</span>",
+                            ['controller'=>'Members', 'action'=>'index'], ['escape'=>false, 'tabindex'=>'-1']); ?>
                     </li>
                 </ul>
             </li>
             <li class="mm-dropdown">
-                    <a href="#"><i class="menu-icon fa fa-cogs"></i><span class="mm-text">Configurações</span></a>
+                    <a href="#"><i class="menu-icon fa fa-cogs"></i><span class="mm-text"><?= __('Settings'); ?></span></a>
                 <ul>
                     <li>
-                        <?= $this->Html->link('<i class="menu-icon fa fa-users"></i><span class="mm-text">Usuários</span>', array('controller'=>'Users', 'action'=>'index'),
+                        <?= $this->Html->link('<i class="menu-icon fa fa-users"></i><span class="mm-text">'. __('Users') .'</span>', array('controller'=>'Users', 'action'=>'index'),
                             array('tabindex'=>'-1', 'escape'=>false)); ?>
                     </li>
                     <li>
-                        <?= $this->Html->link('<i class="menu-icon fa fa-building-o"></i><span class="mm-text">Organizações</span>', array('controller'=>'Organizations', 'action'=>'index'),
+                        <?= $this->Html->link('<i class="menu-icon fa fa-building-o"></i><span class="mm-text">'. __('Payment types') .'</span>', array('controller'=>'PaymentTypes', 'action'=>'index'),
                             array('tabindex'=>'-1', 'escape'=>false)); ?>
                     </li>
                 </ul>
