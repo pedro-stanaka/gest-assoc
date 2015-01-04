@@ -15,6 +15,9 @@ Esta aplicação Web gerencia uma associação e tem as seguintes funcionaah sei
     * Empregados/voluntários
     * Auto gerenciamento do sistema (permissões, temas)
 
+###ESTA APLICAÇÃO AINDA ESTÁ SENDO DESENVOLVIDA.
+
+
 
 ## Requisitos
 
@@ -33,4 +36,13 @@ E seguir os passos da tela.
 
 
 
+## Desenvolvimento
+
+Se quiser contribuir, olhe os roadmaps com os objetivos. E então:
+
+  * Faça um fork
+  * Crie uma branch
+  * Faça suas modificações
+  * Envie uma Pull Request
+  
 
