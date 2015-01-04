@@ -2,7 +2,7 @@
 /config/app.php
 /tmp/*
 /logs/*
-/plugins/*
+plugins/*
 # Created by https://www.gitignore.io
 
 ### CakePHP ###

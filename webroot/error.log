@@ -1,0 +1,72 @@
+2014-12-30 23:21:34 Warning: Warning (2): preg_match_all() expects parameter 2 to be string, array given in [/var/www/repos/Projects/open-source/openquota/vendor/cakephp/cakephp/src/View/StringTemplate.php, line 153]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 135
+preg_match_all - [internal], line ??
+Cake\View\StringTemplate::_compileTemplates() - CORE/src/View/StringTemplate.php, line 153
+Cake\View\StringTemplate::add() - CORE/src/View/StringTemplate.php, line 133
+Cake\View\StringTemplate::load() - CORE/src/View/StringTemplate.php, line 174
+Cake\View\Helper\FormHelper::templater() - CORE/src/View/StringTemplateTrait.php, line 71
+Cake\View\Helper\FormHelper::widgetRegistry() - CORE/src/View/Helper/FormHelper.php, line 230
+Cake\View\Helper\FormHelper::__construct() - CORE/src/View/Helper/FormHelper.php, line 216
+Cake\View\HelperRegistry::_create() - CORE/src/View/HelperRegistry.php, line 135
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 86
+Cake\View\View::loadHelper() - CORE/src/View/View.php, line 832
+Cake\View\View::loadHelpers() - CORE/src/View/View.php, line 723
+Cake\View\View::__construct() - CORE/src/View/View.php, line 316
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 92
+Cake\Controller\Controller::getView() - CORE/src/View/ViewVarsTrait.php, line 69
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 592
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 117
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 85
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2014-12-30 23:28:32 Warning: Warning (2): preg_match_all() expects parameter 2 to be string, array given in [/var/www/repos/Projects/open-source/openquota/vendor/cakephp/cakephp/src/View/StringTemplate.php, line 153]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 135
+preg_match_all - [internal], line ??
+Cake\View\StringTemplate::_compileTemplates() - CORE/src/View/StringTemplate.php, line 153
+Cake\View\StringTemplate::add() - CORE/src/View/StringTemplate.php, line 133
+Cake\View\StringTemplate::load() - CORE/src/View/StringTemplate.php, line 174
+Cake\View\Helper\FormHelper::templater() - CORE/src/View/StringTemplateTrait.php, line 71
+Cake\View\Helper\FormHelper::widgetRegistry() - CORE/src/View/Helper/FormHelper.php, line 230
+Cake\View\Helper\FormHelper::__construct() - CORE/src/View/Helper/FormHelper.php, line 216
+Cake\View\HelperRegistry::_create() - CORE/src/View/HelperRegistry.php, line 135
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 86
+Cake\View\View::loadHelper() - CORE/src/View/View.php, line 832
+Cake\View\View::loadHelpers() - CORE/src/View/View.php, line 723
+Cake\View\View::__construct() - CORE/src/View/View.php, line 316
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 92
+Cake\Controller\Controller::getView() - CORE/src/View/ViewVarsTrait.php, line 69
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 592
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 117
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 85
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2014-12-30 23:30:50 Warning: Warning (2): preg_match_all() expects parameter 2 to be string, array given in [/var/www/repos/Projects/open-source/openquota/vendor/cakephp/cakephp/src/View/StringTemplate.php, line 153]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 135
+preg_match_all - [internal], line ??
+Cake\View\StringTemplate::_compileTemplates() - CORE/src/View/StringTemplate.php, line 153
+Cake\View\StringTemplate::add() - CORE/src/View/StringTemplate.php, line 133
+Cake\View\StringTemplate::load() - CORE/src/View/StringTemplate.php, line 174
+Cake\View\Helper\FormHelper::templater() - CORE/src/View/StringTemplateTrait.php, line 71
+Cake\View\Helper\FormHelper::widgetRegistry() - CORE/src/View/Helper/FormHelper.php, line 230
+Cake\View\Helper\FormHelper::__construct() - CORE/src/View/Helper/FormHelper.php, line 216
+Cake\View\HelperRegistry::_create() - CORE/src/View/HelperRegistry.php, line 135
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 86
+Cake\View\View::loadHelper() - CORE/src/View/View.php, line 832
+Cake\View\View::loadHelpers() - CORE/src/View/View.php, line 723
+Cake\View\View::__construct() - CORE/src/View/View.php, line 316
+Cake\Controller\Controller::createView() - CORE/src/View/ViewVarsTrait.php, line 92
+Cake\Controller\Controller::getView() - CORE/src/View/ViewVarsTrait.php, line 69
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 592
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 117
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 85
+[main] - ROOT/webroot/index.php, line 37
+
+
+
