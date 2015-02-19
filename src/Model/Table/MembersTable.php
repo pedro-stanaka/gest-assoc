@@ -44,7 +44,7 @@ class MembersTable extends Table
             ->add('person_id', 'valid', ['rule' => 'numeric'])
             ->requirePresence('member_number', 'create')
             ->notEmpty('member_number')
-            ->add('member_since', 'valid', ['rule' => 'date'])
+            ->add('member_since', 'valid', ['rule' => 'date', 'message'=> __("The value must be a date.")])
             ->requirePresence('member_since', 'create')
             ->notEmpty('member_since');
 

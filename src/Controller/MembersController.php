@@ -46,9 +46,9 @@ class MembersController extends AppController
      */
     public function add()
     {
-        $member = $this->Members->newEntity($this->request->data);
+        $member = $this->Members->newEntity(null, ['validate'=>false]);
         if ($this->request->is('post')) {
-            $member->person = $this->Members->People->newEntity($this->request->data('people'));
+            $member = $this->Members->patchEntity($member, $this->request->data);
             if ($this->Members->save($member)) {
                 $this->Flash->success('The member has been saved.');
                 $this->redirect(['action' => 'index']);

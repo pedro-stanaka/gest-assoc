@@ -183,4 +183,4 @@ DispatcherFactory::add('Routing');
 DispatcherFactory::add('ControllerFactory');
 
 
-Configure::load('assoc_forms.php');
+Configure::load('assoc_forms');
