@@ -1,7 +1,6 @@
 <?php
 namespace App\Controller;
 
-use App\Controller\AppController;
 
 /**
  * Members Controller
@@ -47,6 +46,7 @@ class MembersController extends AppController
     public function add()
     {
         $member = $this->Members->newEntity($this->request->data);
+
         if ($this->request->is('post')) {
             $member->person = $this->Members->People->newEntity($this->request->data('people'));
             if ($this->Members->save($member)) {
@@ -57,7 +57,8 @@ class MembersController extends AppController
             }
         }
         $people = $this->Members->People->find('list', ['limit' => 200]);
-        $this->set(compact('member', 'people'));
+        $person = $this->Members->People->newEntity();
+        $this->set(compact('member', 'people', 'person'));
     }
 
     /**

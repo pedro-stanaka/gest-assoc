@@ -30,7 +30,7 @@ class AppController extends Controller
 
     var $layout = 'bootstrap';
     public $helpers = [
-        'Form'
+        'Form' => ['templates' => 'assoc_forms']
     ];
     /**
      * Initialization hook method.
