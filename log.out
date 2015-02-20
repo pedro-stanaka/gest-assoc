@@ -1,0 +1,36 @@
+App\Test\TestCase\Controller\MembersController
+ [x] Index
+ [ ] View
+ [ ] Add
+ [ ] Edit
+ [ ] Delete
+
+App\Test\TestCase\Controller\ModalitiesController
+ [ ] Index
+ [ ] View
+ [ ] Add
+ [ ] Edit
+ [ ] Delete
+
+App\Test\TestCase\Controller\UsersController
+ [ ] Index
+ [ ] View
+ [ ] Add
+ [ ] Edit
+ [ ] Delete
+
+PHPUnit_Framework_Warning
+ [ ] Warning
+
+App\Test\TestCase\Model\Table\ModalitiesTable
+ [ ] Initialize
+ [ ] Validation default
+
+App\Test\TestCase\Model\Table\PeopleTable
+ [ ] Initialize
+ [ ] Validation default
+
+App\Test\TestCase\Model\Table\UsersTable
+ [ ] Initialize
+ [ ] Validation default
+

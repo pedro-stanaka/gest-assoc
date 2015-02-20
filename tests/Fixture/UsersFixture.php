@@ -45,5 +45,29 @@ class UsersFixture extends TestFixture
             'updated' => '2014-12-24 16:35:13',
             'recovery_email' => 'Lorem ipsum dolor sit amet'
         ],
+        [
+            'id' => 4,
+            'username' => 'user2',
+            'password' => 'Lorem ipsum dolor sit amet',
+            'created' => '2014-12-24 16:35:13',
+            'updated' => '2014-12-24 16:35:13',
+            'recovery_email' => 'Lorem ipsum dolor sit amet'
+        ],
+        [
+            'id' => 3,
+            'username' => 'user3',
+            'password' => 'Lorem ipsum dolor sit amet',
+            'created' => '2014-12-24 16:35:13',
+            'updated' => '2014-12-24 16:35:13',
+            'recovery_email' => 'Lorem ipsum dolor sit amet'
+        ],
+        [
+            'id' => 2,
+            'username' => 'user4',
+            'password' => 'Lorem ipsum dolor sit amet',
+            'created' => '2014-12-24 16:35:13',
+            'updated' => '2014-12-24 16:35:13',
+            'recovery_email' => 'Lorem ipsum dolor sit amet'
+        ],
     ];
 }

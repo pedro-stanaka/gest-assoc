@@ -41,10 +41,18 @@ class MembersFixture extends TestFixture
         [
             'id' => 1,
             'person_id' => 1,
-            'member_number' => 'Lorem ipsum dolor sit amet',
+            'member_number' => 'VIP001',
             'member_since' => '2014-12-29',
             'created' => '2014-12-29 00:16:55',
             'updated' => '2014-12-29 00:16:55'
         ],
+        [
+            'id' => 2,
+            'person_id' => 2,
+            'member_number' => 'COM001',
+            'member_since' => '2014-12-29',
+            'created' => '2014-12-29 00:16:55',
+            'updated' => '2014-12-29 00:16:55'
+        ]
     ];
 }
